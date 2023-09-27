@@ -84,7 +84,7 @@ nav ul li:nth-child(5):hover a{
 }
 .menu-bar{
     background-color: #FFF200;
-    padding: 15px 0;
+    
 
 }
 .menu-bar ul {
@@ -100,7 +100,7 @@ nav ul li:nth-child(5):hover a{
     font-size: 16px;
 }   
 .menu-bar ul li{
-    padding: 15px 6px ;
+    padding: 20px 6px ;
     transition: all 0.3s ease;
 }
 .menu-bar ul li:hover{
