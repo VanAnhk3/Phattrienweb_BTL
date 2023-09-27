@@ -1,6 +1,6 @@
 
 const addressbtn = document.querySelector('#address-form');
-const addressclose = document.querySelector('#address-close'); 
+const addressclose = document.querySelector('#address-close');
 addressbtn.addEventListener('click', function() {
     document.querySelector('.address-form').style.display = 'flex';
 });
@@ -9,7 +9,7 @@ addressclose.addEventListener('click', function() {
 });
 // slider
 const rightbtn = document.querySelector('.ti-angle-right');
-const lefttbtn = document.querySelector('.ti-angle-left'); 
+const lefttbtn = document.querySelector('.ti-angle-left');
 const imgNuber = document.querySelectorAll('.slider-content-top img');
 console.log(imgNuber.length);
 let index = 0;
@@ -31,7 +31,7 @@ lefttbtn.addEventListener("click", function(){
 const imgNuberLi = document.querySelectorAll('.slider-content-bottom li')
 let imgactive  = document.querySelector('.active')
 imgNuberLi.forEach(function(image,index){
-    
+
     image.addEventListener('click',function(){
         removeactive()
         document.querySelector(".slider-content-top").style.right = index *100 + "%";
