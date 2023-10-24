@@ -629,3 +629,15 @@ cursor: pointer;
 .product-gallery-two button:hover{
     background-color: #DE1C05;
 }
+
+body{
+    background: url('../images/bg.jpg');
+    background-size:cover ;
+    background-position-y: -80x ;
+}
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
