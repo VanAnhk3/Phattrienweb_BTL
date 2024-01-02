@@ -629,6 +629,7 @@ cursor: pointer;
 .product-gallery-two button:hover{
     background-color: #DE1C05;
 }
+<<<<<<< HEAD:BKTB1/style.css
 /*-----------------footer-----------*/
 /*-----------------cart-----------*/
 .cart{
@@ -647,3 +648,17 @@ cursor: pointer;
     border-bottom: 1px solid #ddd;
     padding: 12px 0;
 }
+=======
+
+body{
+    background: url('../images/bg.jpg');
+    background-size:cover ;
+    background-position-y: -80x ;
+}
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> f19775daef12997aed95ced20d64d1d00e0d7a70:BKTB1/themify-icons-font/themify-icons/style.css
