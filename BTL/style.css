@@ -647,3 +647,19 @@ cursor: pointer;
     border-bottom: 1px solid #ddd;
     padding: 12px 0;
 }
+/*---------------------------*/
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li{
+    width: 15%;
+    border: 1px dashed #000;
+    margin: 5px;
+    float: left;
+}
+ul.product_list li img{
+    width: 100%;
+}
